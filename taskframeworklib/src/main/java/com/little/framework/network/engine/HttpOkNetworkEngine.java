@@ -18,7 +18,7 @@ import com.squareup.okhttp.Response;
  */
 public class HttpOkNetworkEngine implements  NetworkEngineInterface{
 
-    static HttpOkNetworkEngine sInstance = new HttpOkNetworkEngine();
+    static HttpOkNetworkEngine sInstance;
 
     private  OkHttpClient client;
 
